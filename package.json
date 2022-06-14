@@ -1,12 +1,13 @@
 {
-  "name": "angular-tour-of-heroes",
+  "name": "angular-static-web-apps",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build | scully",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "scully": "scully"
   },
   "private": true,
   "dependencies": {
@@ -18,6 +19,10 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@scullyio/init": "^2.1.36",
+    "@scullyio/ng-lib": "^2.1.36",
+    "@scullyio/scully": "^2.1.36",
+    "@scullyio/scully-plugin-puppeteer": "^2.1.36",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

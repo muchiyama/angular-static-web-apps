@@ -1,0 +1,11 @@
+identifier: ld45ea9ct33bof25
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: angular-static-web-apps
+homeFolder: C:\repos\angular-static-web-apps
+distFolder: ./dist/angular-static-web-apps
+outDir: C:\repos\angular-static-web-apps\dist\static
+handle404: ''
+allowErrorCollect: false
