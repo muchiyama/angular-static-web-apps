@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build | scully",
+    "pre-build": "ng build",
+    "build": "scully",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "scully": "scully"
