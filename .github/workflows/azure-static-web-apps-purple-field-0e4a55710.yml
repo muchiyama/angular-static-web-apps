@@ -16,7 +16,7 @@ jobs:
     name: Build and Deploy Job
     steps:
       - name: build ng build
-        run: npm run pre-build
+        run: ../npm run pre-build
       - uses: actions/checkout@v2
         with:
           submodules: true
