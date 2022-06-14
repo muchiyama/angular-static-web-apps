@@ -15,11 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - name: build ng build
-        run: ../npm run pre-build
       - uses: actions/checkout@v2
         with:
           submodules: true
+      - name: pre-build
+        run: ../npm run pre-build
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
