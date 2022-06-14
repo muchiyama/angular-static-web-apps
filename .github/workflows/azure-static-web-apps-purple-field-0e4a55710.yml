@@ -18,6 +18,8 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: true
+      - name: npm install
+        run: npm install
       - name: pre-build
         run: npm run pre-build
       - name: Build And Deploy
